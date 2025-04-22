@@ -1,0 +1,6 @@
+@steadyrainapi_HostAddress = http://localhost:5128
+
+GET {{steadyrainapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

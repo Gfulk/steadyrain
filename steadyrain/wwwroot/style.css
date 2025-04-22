@@ -1,0 +1,118 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.header {
+    background-color: white;
+    height: 50px;
+}
+
+.th{
+    width: fit-content;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+td{
+    width: fit-content;
+    border: #031E49;
+    padding: 15;
+    align-content: center;
+}
+
+.sideBar {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    float: left;
+    background-color: lightgray;
+}
+
+/* The navigation menu links */
+.sideBar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+.sideBar a:hover {
+    color: white;
+    background-color: #031E49;
+  }
+
+.mainView {
+    margin-left: 100px;
+    padding: 0px 10px;
+}
+
+.adminView {
+    margin-left: 100px;
+    padding: 0px 10px;
+}
+
+button {
+    color: white;
+    outline: none;
+    background-color: #F79722;
+    border: none;
+}
+
+#gridControlsContainer {
+    padding-top: 15px;
+    display: flex;
+}
+
+.gridContainer{
+    padding-top: 75px;
+    display: flex;
+    position: fixed;
+}
+
+#schoolSelector {
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#addStudentBtn {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#deleteStudentBtn{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left:5px;
+    margin-right:5px;
+    background-color: red;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 80, 80, .5);
+  }
+
+  .modal-content {
+    background-color: white;
+    margin: 15% auto;
+    border: 1px solid black;
+    width: 75%; 
+    height: 15%;
+    align-items: center;
+}
